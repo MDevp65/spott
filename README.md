@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack AI Event Manager with Next JS, Tailwind, Shadcn UI 🔥🔥
+## Try Spott - Event Management Platform https://spott-event-mngr.vercel.app/
+<img width="1470" alt="Landing Page" src="https://ik.imagekit.io/qwekbg8os/Util.png" />
+### Make sure to create a `.env` file with following variables -
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+NEXT_PUBLIC_CONVEX_URL=
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-## Learn More
+CLERK_JWT_ISSUER_DOMAIN=
 
-To learn more about Next.js, take a look at the following resources:
+# Gemini 
+GEMINI_API_KEY
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#Unsplash
+NEXT_PUBLIC_UNSPLASH_ACCESS_KEY
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
