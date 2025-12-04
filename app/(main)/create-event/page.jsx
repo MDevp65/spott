@@ -158,7 +158,7 @@ const CreateEvent = () => {
                 address: data.address || undefined,
                 city: data.city,
                 state: data.state || undefined,
-                country: currentUser?.location.country,
+                country: currentUser?.location?.country,
                 capacity: data.capacity,
                 ticketType: data.ticketType,
                 ticketPrice: data.ticketPrice || undefined,
@@ -303,8 +303,8 @@ const CreateEvent = () => {
                         )}
                     </div>
 
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Start Date */}
-                    <div className="grid grid-cols-2 gap-6">
                         <div className="space-y-2">
                             <Label className={"text-sm"}>Start</Label>
 
