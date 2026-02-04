@@ -1,5 +1,4 @@
 # Full Stack AI Event Manager with Next JS, Tailwind, Shadcn UI 🔥🔥
-## Try Spott - Event Management Platform https://spott-event-mngr.vercel.app/
 <img width="1470" alt="Landing Page" src="https://ik.imagekit.io/qwekbg8os/Util.png" />
 ### Make sure to create a `.env` file with following variables -
 
